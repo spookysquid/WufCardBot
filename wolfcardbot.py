@@ -16,7 +16,7 @@ from bs4 import BeautifulSoup
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
 logger = logging.getLogger(__name__)
  
-telegram_api_token = 'YOUR TELEGRAM BOT API TOKEN'
+telegram_api_token = 272088604:AAEqwF6Csz4MaxAhzwKtIUzmVVT52wINM54
  
 def get_stats(user_id):
     stats = {}
